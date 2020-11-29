@@ -10,6 +10,9 @@
   ],
   "rules": {
     "no-console": 2,
-    "prettier/prettier": 2
+    "prettier/prettier": 2,
+    "no-empty": "warn",
+    "no-debugger": "warn",
+    "no-unused-vars": "warn"
   }
 }

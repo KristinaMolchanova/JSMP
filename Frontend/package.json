@@ -4,8 +4,8 @@
   "scripts": {
     "lint": "eslint . --ext .ts --fix",
     "prettier-format": "prettier --config .prettierrc src/**/*.ts --write",
-    "start": "webpack-dev-server --open -w",
-    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open -w --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js",
     "test": "jest"
   },
   "husky": {

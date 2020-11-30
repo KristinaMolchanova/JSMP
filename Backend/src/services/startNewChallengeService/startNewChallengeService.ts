@@ -1,5 +1,5 @@
-import { ActualTask } from "./../interfaces/actualTask.interface";
-import { Challenge } from "./../interfaces/challenge.interface";
+import { ActualTask } from "./../../interfaces/actualTask.interface";
+import { Challenge } from "./../../interfaces/challenge.interface";
 
 export type startNewChallenge = (
     taskList: Array<ActualTask>,

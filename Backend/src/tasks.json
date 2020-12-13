@@ -1,5 +1,5 @@
-{
-	"tasks": [{
+[
+		{
 			"id": 1,
 			"description": "Go to bed before 11:00 PM"
 		},
@@ -118,6 +118,5 @@
 		{
 			"id": 30,
 			"description": "Become a patron for a creator you like on patreon.com or a similar service"
-		}			  
-	]
-}
+		}
+]

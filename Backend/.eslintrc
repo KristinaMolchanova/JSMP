@@ -12,6 +12,8 @@
     "prettier"
   ],
   "rules": {
-    "prettier/prettier": 2
+    "prettier/prettier": 2,
+    "@typescript-eslint/no-var-requires": 0,
+    "no-console": "off"
   }
 }

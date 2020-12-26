@@ -1,5 +1,5 @@
 export enum ItemState {
-    Pending,
-    Success,
-    Failure
+    Pending = "Pending",
+    Success = "Success",
+    Failure = "Failure"
 }

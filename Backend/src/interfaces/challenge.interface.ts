@@ -1,12 +1,16 @@
 import { ChallengeState } from "./../constants/ChallengeState";
-import { ActualTask } from "./actualTask.interface";
-import { ArchiveItem } from "./archiveItem.interface";
+import { Task } from "./task.interface";
+import { Status } from "./Status.interface";
+import { ActualAchievement } from './actualAchievement.interface';
+import { ArchiveItem } from './archiveItem.interface';
 
 export interface Challenge {
     id: number;
     state: ChallengeState;
     startDate: Date;
-    tasksOrder: Array<string>;
-    tasksStatus: ActualTask['status'];
-    achievementsStatus: ArchiveItem['status'];
+    tasksOrder: Task[];
+    tasksStatus: Status;
+    achievementsStatus: Status;
+    achievements?: ActualAchievement[];
+    tasksArchive?: ArchiveItem[];
 }

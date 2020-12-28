@@ -1,18 +1,31 @@
 {
   "name": "frontend",
-  "version": "1.0.0",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "materialize-css": "^1.0.0-rc.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "web-vitals": "^0.2.4"
+  },
   "scripts": {
-    "lint": "eslint . --ext .ts --fix",
-    "prettier-format": "prettier --config .prettierrc src/**/*.ts --write",
-    "start": "webpack-dev-server --open --config webpack.dev.js -w",
-    "build": "webpack --config webpack.prod.js",
-    "test": "jest"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run test && npm run prettier-format && npm run lint"
-    }
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
+<<<<<<< HEAD
   "author": "Kristina Molchanova",
   "license": "ISC",
   "devDependencies": {
@@ -45,5 +58,18 @@
   },
   "dependencies": {
     "socket.io-client": "^3.0.4"
+=======
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+>>>>>>> 971b300c76ba2a44d5fea41e74a4a1000f69b4cd
   }
 }

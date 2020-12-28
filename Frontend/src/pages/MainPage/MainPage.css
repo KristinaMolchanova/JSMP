@@ -1,0 +1,16 @@
+.page-container{
+    width:30%;
+    margin:0 auto;
+    color: #37474f;
+}
+
+.page-description{
+    text-align: center;
+    color: #90a4ae;
+    padding: 20px;
+    margin: 20vh 0 10vh;
+}
+
+.achievements_title{
+    padding: 30px 0;
+}

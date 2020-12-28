@@ -1,0 +1,40 @@
+
+.icons_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons_container:nth-child(3){
+    display: flex;
+    justify-content: space-around;
+}
+
+.achievement{
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    padding: 10px 0;
+    line-height: 30px;
+}
+
+.achievement-icon{
+    color: #eceff1;
+}
+
+.green[type="checkbox"].filled-in:checked + span:not(.lever):after
+{
+    border: 2px solid #43a047;
+    background-color: #43a047;
+    border-radius: 50%;
+}
+
+.green[type="checkbox"].filled-in + span:not(.lever):after
+{
+    border: 2px solid #cfd8dc;
+    background-color: #cfd8dc;
+    border-radius: 50%;
+}
+
+.achievement-icon--success{
+    color: #43a047;
+}

@@ -1,0 +1,18 @@
+.task__container{
+    display: flex;
+    padding: 10px 0;
+}
+
+.task__icon-complete{
+    color: #43a047;
+    padding-right: 10px;
+}
+
+.task__icon-failed{
+    color: #ff8a65;
+    padding-right: 10px;
+}
+
+.task__description{
+    line-height: 30px;
+}

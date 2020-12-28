@@ -1,0 +1,10 @@
+.in-row{
+    flex-direction: row;
+}
+.column{
+    flex-direction: column;
+}
+
+.btn-container{
+    margin: 5vh auto;
+}

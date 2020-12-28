@@ -1,15 +1,16 @@
-import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import { LoginPage } from './pages/LoginPage/LoginPage';
+import {useRoutes} from './routes';
+import {BrowserRouter as Router} from 'react-router-dom';
+import 'materialize-css';
+
 
 function App() {
-  return (
-    <BrowserRouter>
-      <Switch>
-          <Route component={ LoginPage } pass='/login' exact/>
-          <Route pass='/' exact><h1>dfgrehes</h1></Route> 
-      </Switch>
-    </BrowserRouter>
+  const routes = useRoutes(false);
+  return(
+      <Router>
+          <div className="container">
+            {routes}
+          </div>
+      </Router>
   );
 }
 
